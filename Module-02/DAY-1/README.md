@@ -21,12 +21,25 @@ To create a java program for calculate cube of a number using static method.
  ```
 /*
 Program to implement a Static method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber: 212222240054
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class Main{
+    public static void main(String []args){
+        Scanner sc=new Scanner(System.in);
+        char ch=sc.next().charAt(0);
+        System.out.println("Enter a character: The ASCII value of '" + ch + "' is: " + (int) ch);
+        
+        
+        
+    }
+}
+```
 
 
 
@@ -35,6 +48,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/2d44adc3-6205-46fe-aee0-168dd753ced9)
+
 
 
 
