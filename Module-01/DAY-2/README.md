@@ -56,6 +56,8 @@ public class Demo{
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/0d9c7d31-d18e-4fe7-a65b-fd8314121b75)
+
 
 
 ## RESULT:
