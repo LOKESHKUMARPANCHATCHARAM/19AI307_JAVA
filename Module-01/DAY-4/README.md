@@ -24,12 +24,20 @@ b)	Call the 'calculateArea' method on the 'rectangle' object
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054 
 */
 ```
 
 ## Sourcecode.java:
+```
+ public void sum() {
+     int num1=23,num2=43;
+        int result = num1 + num2;
+        System.out.println("Sum of given numbers is " + result);
+    }
+
+``
 
 
 
@@ -38,6 +46,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/04a1252a-0e27-4a80-b7bb-6f16bf8eb909)
+
 
 
 
