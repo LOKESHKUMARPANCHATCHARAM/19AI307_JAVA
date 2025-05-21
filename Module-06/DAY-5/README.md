@@ -24,13 +24,37 @@ b.	Call the methods to get input and display results.
  ```
 /*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
-
+```
+class Student{
+    int Stu_id;
+    void display(int Stu_id){
+        System.out.println(Stu_id);
+        
+    }
+}
+class Subject extends Student{
+    String sub1="Java";
+    String sub2="DS";
+    String sub3="TOC";
+    String sub4="CG";
+    void print(){
+        System.out.println(sub1+" "+sub2+" "+sub3+" "+sub4);
+    }
+}
+public class Main{
+    public static void main(String[]args){
+        Subject ob=new Subject();
+        ob.display(101);
+        ob.print();
+    }
+}
+```
 
 
 
@@ -38,6 +62,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/6810fb30-e1ec-4ed2-b374-e5b2ad02467b)
 
 
 
