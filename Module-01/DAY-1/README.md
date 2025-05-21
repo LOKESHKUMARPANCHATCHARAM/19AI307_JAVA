@@ -20,12 +20,32 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:  212222240054
 */
 ```
 
 ## Sourcecode.java:
+```
+
+    
+    public Fruit(String name,String color,double weight){
+        this.name=name;
+        this.color=color;
+        this.weight=weight;
+    }
+    public void display(){
+        System.out.println("Fruit Name is " + name +",weight is "+weight+"kg and Color is "+color);
+        
+    }
+    public static void main(String []args){
+        Fruit grape=new Fruit("Grape","Purple",0.75);
+        Fruit mango=new Fruit("Mango","Yellow",1.5);
+        grape.display();
+        mango.display();
+    }
+    
+```
 
 
 
@@ -34,6 +54,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/ab301076-d155-4abc-beaf-c3d6a57c4deb)
+
 
 
 
