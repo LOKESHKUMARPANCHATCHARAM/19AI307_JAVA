@@ -21,12 +21,26 @@ b.	If false, print 'num' followed by " is Non-Zero"
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner (System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int max=(a>b)?(a>c?a:c):(b>c?b:c);
+        System.out.println(max+" is the Greatest value");
+        
+    }
+}
+```
 
 
 
@@ -35,6 +49,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/1358d545-0e46-4340-9ecc-643156a1e456)
+
 
 
 
