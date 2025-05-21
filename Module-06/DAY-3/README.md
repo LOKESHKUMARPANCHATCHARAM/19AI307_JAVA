@@ -24,13 +24,53 @@
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+// Parent class
+class Number {
+    int num1 = 10;
+    int num2 = 5;
+    int result;
+    
+    void displayResult(String operation) {
+        System.out.println(operation + " of 2 values " + result);
+    }
+}
 
+// Addition class inheriting from Number
+class Addition extends Number {
+    void add() {
+        result = num1 + num2;
+        displayResult("Addition");
+    }
+}
+
+// Subtraction class inheriting from Number
+class Subtraction extends Number {
+    void sub() {
+        result = num1 - num2;
+        displayResult("Subtraction");
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        // Create object for Addition
+        Addition addition = new Addition();
+        addition.add();  // Outputs: Addition of 2 values 15
+
+        // Create object for Subtraction
+        Subtraction subtraction = new Subtraction();
+        subtraction.sub();  // Outputs: Subtraction of 2 values 5
+    }
+}
+```
 
 
 
@@ -38,6 +78,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/8fac61dd-f0e8-40f5-adb9-f815ee2afc99)
 
 
 
