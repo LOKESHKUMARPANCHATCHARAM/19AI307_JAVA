@@ -20,13 +20,38 @@ To create a Java program using constructor to print the circumference of rectang
  ```
 /*
 Program to implement a Constructor using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUAMR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
-
+```
+class Employee{
+    String name;
+    String designation;
+    
+    
+    Employee(String name,String designation){
+        this.name=name;
+        this .designation=designation;
+    }
+     String getName(){
+         return name;
+        
+    }
+    String getDesg(){
+        return designation;
+    }
+}
+public class sample{
+    public static void main(String[]args){
+        Employee obj=new Employee("John","Asst.Manager");
+        System.out.println(obj.getName());
+        System.out.println(obj.getDesg());
+    }
+}
+```
 
 
 
@@ -35,6 +60,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/e780e2c2-51c2-4888-9213-f87e781f7911)
 
 
 ## RESULT:
