@@ -25,13 +25,40 @@
  ```
 /*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+class MyRunnable implements Runnable {
+    double value;
+
+    MyRunnable(double value) {
+        this.value = value;
+    }
+
+    public void run() {
+        System.out.println("Thread Count: " + value);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double inputValue = sc.nextDouble();
+
+        MyRunnable task = new MyRunnable(inputValue);
+        Thread t = new Thread(task);
+        t.start();
+
+        sc.close();
+    }
+}
+```
 
 
 
@@ -40,6 +67,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/c34f334a-0afa-482d-9dce-c06b656a6065)
 
 
 ## RESULT:
