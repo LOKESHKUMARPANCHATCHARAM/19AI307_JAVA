@@ -24,13 +24,37 @@
  ```
 /*
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class HelloWorld {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int index=sc.nextInt();
+         
+        try  
+        {  
+        int arr[]= {1,3,5,7};
+        System.out.println(arr[index]);
+          
+        } 
+        catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("Array value should be less than 4");
+        }
+            
+       
+        
+          
+    }
+}
 
+```
 
 
 
@@ -38,6 +62,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/57d92d5a-3170-4ee1-828c-8318a19462a7)
 
 
 
