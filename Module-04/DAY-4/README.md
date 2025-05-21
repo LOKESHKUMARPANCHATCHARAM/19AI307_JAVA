@@ -29,13 +29,46 @@
  ```
 /*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+// Student class
+class Student {
+    int rollno;
+    String name;
+    static String college = "ABC"; 
 
+  
+    Student(int rollno, String name) {
+        this.rollno = rollno;
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println("Rollno is " + rollno + " Name is " + name + " College Name is " + college);
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student(101, "Student1");
+        Student s2 = new Student(102, "Student2");
+        Student s3 = new Student(103, "Student3");
+        Student s4 = new Student(104, "Student4");
+
+        
+        s1.display();
+        s2.display();
+        s3.display();
+        s4.display();
+    }
+}
+```
 
 
 
@@ -43,6 +76,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/80e172b0-1e86-47df-8eee-abae477679de)
 
 
 
