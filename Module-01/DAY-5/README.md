@@ -22,12 +22,24 @@ III.	Call the displayDetails() method for each student.
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        double num;
+        num=sc.nextInt();
+        double result=(num+8)/3;
+        System.out.println(result);
+    }
+}
+```
 
 
 
@@ -36,6 +48,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/18436f69-2364-4762-8514-0c546b542270)
+
 
 
 
