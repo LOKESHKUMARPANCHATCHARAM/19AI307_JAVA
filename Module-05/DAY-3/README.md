@@ -19,13 +19,48 @@ To Create a java program to print the sum of two number using getter and setter 
  ```
 /*
 Program to implement a Getter and Setter using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+class Person {
+    private int age;
 
+    // Setter method to set age
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Getter method to get age
+    public int getAge() {
+        return age;
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an object of Person
+        Person person = new Person();
+
+        
+
+        // Read the age value
+    
+        int age = 24;
+
+        // Set the age using setter method
+        person.setAge(age);
+
+        // Print the age using getter method
+        System.out.println("My age is " + person.getAge());
+
+    }
+}
+```
 
 
 
@@ -33,6 +68,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/820c135d-4483-48de-a715-41f81b722282)
 
 
 
