@@ -37,7 +37,7 @@ RegisterNumber:212222240054
         System.out.println("Sum of given numbers is " + result);
     }
 
-``
+```
 
 
 
