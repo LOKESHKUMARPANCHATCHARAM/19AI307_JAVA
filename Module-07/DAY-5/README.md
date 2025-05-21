@@ -20,13 +20,42 @@ To implement method overloading in Java to calculate the sum of two and three nu
  ```
 /*
 Program to implement a Method Overloading in Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class Main 
+{
+  
+  static void checkAge(double age) throws ArithmeticException {
+    if (age < 18) {
+      throw new ArithmeticException("Person is not eligible to vote");
+    }
+    else {
+      System.out.println("Person is eligible to vote!!");
+    }
+  }
 
+  public static void main(String[] args) 
+  { 
+      Scanner sc=new Scanner(System.in);
+      double n=sc.nextDouble();
+      try
+      {
+      checkAge(n);
+      }
+      catch(Exception e)
+      {
+          System.out.println(e);
+      }
+     // Set age to 15 (which is below 18...)
+  }
+}
+```
 
 
 
@@ -34,6 +63,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/83378be5-e60e-41a2-a555-a1526bd58d6e)
 
 
 
