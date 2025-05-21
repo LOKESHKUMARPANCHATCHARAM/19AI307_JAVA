@@ -21,12 +21,30 @@ To create a java program using StringTokenizer class that tokenizes a string "My
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.StringTokenizer;
+
+public class TokenizeString {
+    public static void main(String[] args) {
+        // String to be tokenized
+        String str = "welcome to java# programming";
+        
+        // Create a StringTokenizer to split the string based on the '#' symbol
+        StringTokenizer tokenizer = new StringTokenizer(str, "#");
+        
+        // Tokenize and print each part
+        while (tokenizer.hasMoreTokens()) {
+            System.out.println(tokenizer.nextToken());
+        }
+    }
+}
+```
 
 
 
@@ -35,6 +53,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/4ac12de3-4e43-412f-b8f8-596d4d6d85fd)
 
 
 
