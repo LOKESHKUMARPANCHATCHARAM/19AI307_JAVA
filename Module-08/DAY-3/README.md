@@ -17,13 +17,38 @@
  ```
 /*
 Program to implement a Filter Reader using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+   
+       try
+          {
+            FileInputStream f=new FileInputStream("sample.txt");
+            FilterInputStream f1=new BufferedInputStream(f);
+            Scanner sc=new Scanner(System.in);
+            int n=sc.nextInt();
+            System.out.println("Available bytes in the file: "+f1.available());
+            for(int i=0;i<n;i++)
+            {
+                f1.read();
+            }
+            System.out.println("Available bytes in the file: "+f1.available());
+      
+           } 
+           catch (IOException e) 
+      {
+      System.out.println("An error occurred.");
+     
+    }
+  
+           
 
+
+```
 
 
 
@@ -32,6 +57,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/6e257bbf-03f0-4ae2-b588-b86b2a0eb75a)
 
 
 ## RESULT:
