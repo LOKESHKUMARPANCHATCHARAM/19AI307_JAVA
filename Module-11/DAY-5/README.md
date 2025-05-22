@@ -13,13 +13,28 @@ d.	Iterate through the map using a for-each loop and display the entries
  ```
 /*
 Program to implement a HASHMAP
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class TrimExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read input string
+        String input = scanner.nextLine();
+
+        // Display before and after trim
+        System.out.println("String before trim: " + input);
+        System.out.println("String after trim: " + input.trim());
+    }
+}
+```
 
 
 
@@ -27,6 +42,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/1d261904-bbec-4ea4-bf83-ab719d520ff4)
 
 
 
