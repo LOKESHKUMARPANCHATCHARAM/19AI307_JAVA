@@ -20,13 +20,44 @@ j.	End the program.
  ```
 /*
 Program to implement a STRING WRITER
-Developed by: 
-RegisterNumber:  
+Developed by:lokesh kumar p 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.io.ByteArrayInputStream;
+import java.util.*;
+public class Main {
+  public static void main(String[] args) 
+  {
+      byte[] array = {1,2,3,4};
+      Scanner sc=new Scanner(System.in);
+      int a=sc.nextInt();
+      try
+      {
+          ByteArrayInputStream by =new ByteArrayInputStream(array);
+          by.skip(a);
+          System.out.print("Input stream after skipping "+a+"  bytes: ");
+          int data;
+          while((data=by.read())!=-1)
+          {
+              System.out.print(data+", ");
+          }
+      
+      
+      
+      
 
+    }
+
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
 
 
 
@@ -34,6 +65,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/46e33bd9-794b-40fa-bbd1-e5913eab7de3)
 
 
 
