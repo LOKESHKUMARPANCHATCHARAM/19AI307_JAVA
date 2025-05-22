@@ -22,13 +22,47 @@ To Create a java program to display the contains key of 104 and to retrieve the 
  ```
 /*
 Program to implement a JAVA LINKED HASH MAP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
 
+public class LinkedHashMapIsEmptyExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Create a LinkedHashMap to preserve insertion order
+        LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
+
+        // Read number of entries
+        int n = scanner.nextInt();
+        scanner.nextLine(); // consume newline
+
+        // Read key-value pairs
+        for (int i = 0; i < n; i++) {
+            int key = Integer.parseInt(scanner.nextLine());
+            String value = scanner.nextLine();
+            map.put(key, value);
+        }
+
+        // Display each entry in insertion order
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+
+        // Check if the map is empty
+        System.out.println("Is HashMap is empty: " + map.isEmpty());
+
+        scanner.close();
+    }
+}
+```
 
 
 
@@ -36,6 +70,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/ba9a28e6-9579-4113-a1c1-9e34b9d3960d)
 
 
 
