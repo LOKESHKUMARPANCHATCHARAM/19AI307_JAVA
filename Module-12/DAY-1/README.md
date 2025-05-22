@@ -24,13 +24,51 @@
  ```
 /*
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+import java.util.TreeMap;
 
+public class TreeMapKeySearch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        TreeMap<String, String> map = new TreeMap<>();
+
+        int n = sc.nextInt();
+        sc.nextLine(); // Consume newline
+
+        // Read n key-value pairs
+        for (int i = 0; i < n; i++) {
+            String key = sc.nextLine();
+            String value = sc.nextLine();
+            map.put(key, value);
+        }
+
+        // Display the TreeMap
+        System.out.println(map);
+
+        // Check for specific keys
+        if (map.containsKey("C1")) {
+            System.out.println("The Tree Map contains key C1");
+        } else {
+            System.out.println("The Tree Map does not contain key C1");
+        }
+
+        if (map.containsKey("C5")) {
+            System.out.println("The Tree Map contains key C5");
+        } else {
+            System.out.println("The TreeMap does not contain key C5");
+        }
+
+        sc.close();
+    }
+}
+```
 
 
 
@@ -38,6 +76,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/18b7910c-d32d-4789-b6f8-4824bc36cece)
 
 
 
