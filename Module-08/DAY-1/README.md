@@ -15,13 +15,30 @@ To implement a Java Program to write a String in a file "testout.txt" using File
  ```
 /*
 Program to implement a IO File Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+try {
+    FileInputStream fin = new FileInputStream("testout.txt");
 
+    int i = fin.read();  // Read one byte
+
+    if (i != -1) {
+        
+        System.out.println((char) i);
+    } else {
+        System.out.println("File is empty.");
+    }
+
+    fin.close();
+} catch (Exception e) {
+    System.out.println(e);
+}
+```
 
 
 
@@ -29,6 +46,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/bd5ee0d1-3fc2-4cb3-8705-06a34837d25a)
 
 
 
