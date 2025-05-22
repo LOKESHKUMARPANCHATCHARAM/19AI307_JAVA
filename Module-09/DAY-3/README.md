@@ -16,13 +16,39 @@
  ```
 /*
 Program to implement a String Reader using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.io.StringReader; 
+import java.util.*;
+public class StringReaderExample {  
+    public static void main(String[] args) throws Exception 
+    {  
+        Scanner sc=new Scanner(System.in);
+        String data = sc.nextLine();  
+       
+       char[] array = new char[15];
 
+    try {
+      StringReader input = new StringReader(data);
+
+      //Use the read method
+      input.read(array);
+      System.out.println("Data read from the string:");
+      System.out.println(array);
+
+      input.close();
+    }
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+        }  
+}
+```
 
 
 
@@ -30,6 +56,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/9e2930dc-0b2f-4f38-afce-c8aab8efbd7f)
 
 
 
