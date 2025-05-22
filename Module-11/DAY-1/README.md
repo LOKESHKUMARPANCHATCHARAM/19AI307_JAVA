@@ -18,13 +18,48 @@
  ```
 /*
 Program to implement a JAVA TREESET using Java
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+import java.util.TreeSet;
 
+public class TreeSetFirstLast {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+    
+        int n = Integer.parseInt(scanner.nextLine());
+
+        // Create a TreeSet of strings
+        TreeSet<String> treeSet = new TreeSet<>();
+
+        
+        for (int i = 0; i < n; i++) {
+            String element = scanner.nextLine();
+            treeSet.add(element);
+        }
+
+        // Display the TreeSet
+        System.out.println("Tree set:");
+        System.out.println(treeSet);
+
+        // Display first and last elements
+        if (!treeSet.isEmpty()) {
+            System.out.println("First Element is: " + treeSet.first());
+            System.out.println("Last Element is: " + treeSet.last());
+        } else {
+            System.out.println("The tree set is empty.");
+        }
+
+        scanner.close();
+    }
+}
+```
 
 
 
@@ -33,6 +68,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/b146ac08-5bc9-459a-b4fb-b30895087f49)
 
 
 ## RESULT:
