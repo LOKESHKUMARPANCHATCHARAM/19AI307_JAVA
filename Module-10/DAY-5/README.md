@@ -15,13 +15,32 @@ e.	Use .size() method to get and print the number of elements in the set.
  ```
 /*
 Program to implement a LINKEDHASH SET
-Developed by: 
-RegisterNumber:  
+Developed by:LOKESH KUMAR P 
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
+```
 
+import java.util.*;
+public class Main
+{
+  public static void main(String[] args)
+  {
+   Scanner sc=new Scanner(System.in);
+    LinkedList<String> cars=new LinkedList<String>();
+    int n=sc.nextInt();
+    for(int i=0;i<n;i++)
+    {
+    cars.add(sc.next());
+    }
+    
+    System.out.println(cars);
+  }
+}
+
+```
 
 
 
@@ -30,6 +49,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/fbe76f80-757c-44b5-9f5a-fe42630b188b)
 
 
 ## RESULT:
