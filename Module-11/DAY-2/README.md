@@ -22,14 +22,35 @@ To Create a java program to retrieve the key and value from hashtable for all in
  ```
 /*
 Program to implement a JAVA MAP & HASHMAP AND HASHTABLE using Java
-Developed by: 
-RegisterNumber:  
+Developed by: LOKESH KUMAR P
+RegisterNumber:212222240054  
 */
 ```
 
 ## Sourcecode.java:
 
-
+```
+import java.util.*;  
+public class Mapp{  
+ public static void main(String args[]){ 
+     
+  HashMap<Integer,String> map=new HashMap<Integer,String>(); 
+  Scanner sc=new Scanner(System.in);
+  
+  int size=sc.nextInt();
+  for(int i=0;i<size;i++)
+  {
+  Integer a=sc.nextInt();
+  String b=sc.next();
+  map.put(a,b);  
+  } 
+ 
+  for(Map.Entry m:map.entrySet()){  
+   System.out.println(m.getKey()+" "+m.getValue());  
+  }  
+ }  
+}  
+```
 
 
 
@@ -37,6 +58,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/c3e0097e-70f3-4090-91e1-69668a78ed15)
 
 
 ## RESULT:
